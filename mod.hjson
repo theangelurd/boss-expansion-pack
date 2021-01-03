@@ -1,0 +1,5 @@
+name: "bossexpansionpack"
+displayName: "Boss Expansion Pack"
+description: "Adds more boss-like units to the game, with increased intensity."
+version: "0.1.0"
+minGameVersion: "122"
