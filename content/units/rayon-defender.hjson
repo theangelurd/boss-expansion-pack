@@ -98,4 +98,21 @@ weapons: [
     shrinkY: 0.3
     }
     }
+    {
+    name: none
+    x: 14
+    y: 4
+    inaccuracy: 4
+    reload: 12
+    shootSound: shootSnap
+    bullet: {
+    type: FlakBulletType
+    damage: 2
+    splashDamage: 23
+    speed: 4
+    lifetime: 50
+    height: 8.5
+    width: 8.5
+    }
+    }
 ]
