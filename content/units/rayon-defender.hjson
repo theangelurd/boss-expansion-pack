@@ -1,0 +1,84 @@
+type: flying
+name: "Rayon Defender"
+description: "Shoots barrages of energy balls, piercing bullets and one strong bomb."
+flying: true
+visualElevation: 0.6
+speed: 1.2
+drag: 0.04
+accel: 0.04
+engineOffset: 10
+engineSize: 5
+hitSize: 26
+range: 180
+armor: 9
+health: 2780
+lowAltitude: true
+rotateSpeed: 2.6
+weapons: [
+    {
+        name: none
+        x: 0
+        y: 10
+        shots: 1
+        reload: 180
+        mirror: false
+        shake: 4
+        shootSound: plasmadrop
+        ejectEffect: none
+        bullet: {
+            speed: 4
+            type: BasicBulletType
+            width: 24
+            height: 24
+            sprite: shell
+            maxRange: 20
+            despawnEffect: massiveExplosion
+            hitEffect: massiveExplosion
+            collidesAir: true
+            damage: 0
+            splashDamage: 47
+            splashDamageRadius: 90
+            shrinkX: 0.1
+            shrinkY: 0.4
+            speed: 3
+            drag: 0.01
+            hitShake: 8
+            lifetime: 60
+            mixColorTo: red
+        }
+    }
+    {
+        name: none
+        x: 8
+        y: 14
+        shake: 2
+        reload: 100
+        shots: 36
+        velocityRnd: 0.4
+        inaccuracy: 13
+        spacing: 1
+        shootSound: none
+        mirror: true
+        shotDelay: 1
+        alternate: true
+        minShootVelocity: 0.1
+        bullet: {
+            type: BasicBulletType
+            sprite: large-bomb
+            width: 10
+            height: 10
+            hitEffect: shootHeal
+            despawnEffect: none
+            shrinkX: 0.2
+            shrinkY: 0.2
+            frontColor: lightOrange
+            backColor: orange
+            damage: 3
+            homingPower: 0.04
+            homingRange: 60
+            spin: 0.8
+            hitSound: lasershoot
+            hitSoundVolume: 0.6
+        }
+    }
+]
