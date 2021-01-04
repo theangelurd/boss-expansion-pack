@@ -44,7 +44,6 @@ weapons: [
             drag: 0.01
             hitShake: 8
             lifetime: 60
-            mixColorTo: red
         }
     }
     {
