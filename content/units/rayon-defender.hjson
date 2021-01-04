@@ -59,7 +59,7 @@ weapons: [
         shootSound: none
         mirror: true
         shotDelay: 1
-        alternate: true
+        alternate: false
         minShootVelocity: 0.1
         bullet: {
             type: BasicBulletType
