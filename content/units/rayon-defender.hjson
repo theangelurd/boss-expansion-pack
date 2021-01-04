@@ -81,4 +81,21 @@ weapons: [
             lifetime: 50
         }
     }
+    {
+    name: none
+    x: 10
+    y: 8
+    inaccuracy: 2
+    reload: 20
+    shootSound: pew
+    bullet: {
+    type: BasicBulletType
+    height: 17
+    width: 8
+    damage: 16
+    speed: 4
+    lifetime: 60
+    shrinkY: 0.3
+    }
+    }
 ]
