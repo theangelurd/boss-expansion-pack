@@ -52,13 +52,13 @@ weapons: [
         y: 12
         shake: 2
         reload: 30
-        shots: 156
+        shots: 320
         velocityRnd: 0.4
         inaccuracy: 13
-        spacing: 0.2
+        spacing: 0
         shootSound: none
         mirror: true
-        shotDelay: 0.125
+        shotDelay: 0.025
         alternate: true
         bullet: {
             type: BasicBulletType
