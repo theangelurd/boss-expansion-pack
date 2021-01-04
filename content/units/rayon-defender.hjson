@@ -59,7 +59,7 @@ weapons: [
         shootSound: none
         mirror: true
         shotDelay: 0.5
-        alternate: false
+        alternate: true
         bullet: {
             type: BasicBulletType
             sprite: large-bomb
