@@ -109,6 +109,7 @@ weapons: [
     type: FlakBulletType
     damage: 2
     splashDamage: 23
+    splashDamageRadius: 27
     speed: 4
     lifetime: 50
     height: 8.5
