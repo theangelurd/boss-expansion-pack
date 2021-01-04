@@ -48,8 +48,8 @@ weapons: [
     }
     {
         name: none
-        x: 8
-        y: 14
+        x: 6
+        y: 12
         shake: 2
         reload: 100
         shots: 36
@@ -60,7 +60,6 @@ weapons: [
         mirror: true
         shotDelay: 1
         alternate: false
-        minShootVelocity: 0.1
         bullet: {
             type: BasicBulletType
             sprite: large-bomb
@@ -70,8 +69,8 @@ weapons: [
             despawnEffect: none
             shrinkX: 0.2
             shrinkY: 0.2
-            frontColor: lightOrange
-            backColor: orange
+            frontColor: ffffff
+            backColor: ffa665
             damage: 3
             homingPower: 0.04
             homingRange: 60
