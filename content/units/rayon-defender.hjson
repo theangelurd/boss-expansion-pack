@@ -100,8 +100,8 @@ weapons: [
     }
     {
     name: none
-    x: 14
-    y: 4
+    x: 13
+    y: 3
     inaccuracy: 4
     reload: 12
     shootSound: shootSnap
