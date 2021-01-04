@@ -58,7 +58,7 @@ weapons: [
         spacing: 0.2
         shootSound: none
         mirror: true
-        shotDelay: 0.5
+        shotDelay: 0.125
         alternate: true
         bullet: {
             type: BasicBulletType
