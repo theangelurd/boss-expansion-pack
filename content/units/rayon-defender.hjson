@@ -83,7 +83,7 @@ weapons: [
     }
     {
     name: none
-    x: 9
+    x: 10
     y: 7
     inaccuracy: 2
     reload: 20
@@ -100,7 +100,7 @@ weapons: [
     }
     {
     name: none
-    x: 13
+    x: 12
     y: 3
     inaccuracy: 4
     reload: 12
