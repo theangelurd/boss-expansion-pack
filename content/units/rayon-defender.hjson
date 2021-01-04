@@ -51,14 +51,14 @@ weapons: [
         x: 6
         y: 12
         shake: 2
-        reload: 100
+        reload: 40
         shots: 36
         velocityRnd: 0.4
         inaccuracy: 13
         spacing: 1
         shootSound: none
         mirror: true
-        shotDelay: 1
+        shotDelay: 0.5
         alternate: false
         bullet: {
             type: BasicBulletType
@@ -71,7 +71,7 @@ weapons: [
             shrinkY: 0.2
             frontColor: ffffff
             backColor: ffa665
-            damage: 3
+            damage: 1
             homingPower: 0.04
             homingRange: 60
             spin: 0.8
