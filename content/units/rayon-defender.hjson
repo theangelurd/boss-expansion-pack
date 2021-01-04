@@ -84,7 +84,7 @@ weapons: [
     {
     name: none
     x: 10
-    y: 8
+    y: 7
     inaccuracy: 2
     reload: 20
     shootSound: pew
