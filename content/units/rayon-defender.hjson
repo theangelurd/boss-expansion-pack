@@ -77,6 +77,8 @@ weapons: [
             spin: 0.8
             hitSound: lasershoot
             hitSoundVolume: 0.6
+            speed: 3
+            lifetime: 50
         }
     }
 ]
