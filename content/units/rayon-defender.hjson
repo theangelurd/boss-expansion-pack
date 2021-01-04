@@ -51,11 +51,11 @@ weapons: [
         x: 6
         y: 12
         shake: 2
-        reload: 40
+        reload: 30
         shots: 36
         velocityRnd: 0.4
         inaccuracy: 13
-        spacing: 1
+        spacing: 0.2
         shootSound: none
         mirror: true
         shotDelay: 0.5
@@ -76,7 +76,7 @@ weapons: [
             homingRange: 60
             spin: 0.8
             hitSound: lasershoot
-            hitSoundVolume: 0.6
+            hitSoundVolume: 0.1
             speed: 3
             lifetime: 50
         }
