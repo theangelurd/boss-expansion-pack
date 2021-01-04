@@ -20,7 +20,7 @@ weapons: [
         x: 0
         y: 10
         shots: 1
-        reload: 180
+        reload: 140
         mirror: false
         shake: 4
         shootSound: plasmadrop
