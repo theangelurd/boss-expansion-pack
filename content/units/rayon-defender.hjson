@@ -52,7 +52,7 @@ weapons: [
         y: 12
         shake: 2
         reload: 30
-        shots: 320
+        shots: 120
         velocityRnd: 0.4
         inaccuracy: 13
         spacing: 0
